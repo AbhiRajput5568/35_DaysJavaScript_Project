@@ -50,7 +50,12 @@ keyboard keys to play different drum sounds.
 
     Open any specific project folder and open the index.html file in your browser.
 
-Contributing
+4. Contributing
 
 Contributions are welcome! Feel free to submit a pull request with improvements, fixes, or new features. You can also open an issue if you encounter any bugs.
-License
+
+5. License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+You can paste this directly into your GitHub repository's README file. Just replace `yourusername` in the clone URL with your GitHub username.
