@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    315deg,
+    hsla(291, 51%, 82%, 1) 0%,
+    hsla(330, 100%, 46%, 1) 100%
+  );
+}
+.main h1 {
+  color: white;
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: fit-content;
+  border: 2px solid;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: black;
+  border-radius: 25px;
+}
+.main input {
+  width: 100%;
+  font-size: large;
+  padding: 10px 20px;
+  border-radius: 25px;
+  outline: none;
+}
+.error {
+  animation: shake 0.1s linear 10;
+  border: 5px solid red;
+}
+@keyframes shake {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(-2px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  75% {
+    transform: translate(2);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.main button {
+  font-size: large;
+  width: 100%;
+  font-weight: bold;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: all 0.4s;
+}
+.main button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+#reQr {
+  display: none;
+}
+.imgBox {
+  display: none;
+  transition: max-height 1s;
+}

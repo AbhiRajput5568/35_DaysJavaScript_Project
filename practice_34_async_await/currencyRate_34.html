@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async Based Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="currencyRate_34.css" />
+    <script src="countryCode.js" defer></script>
+    <script src="currencyRate_34.js" defer></script>
+  </head>
+  <body>
+    <div class="cont">
+      <h1>Currency Converter</h1>
+      <form action="">
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" value="100" />
+        </div>
+        <div class="dropDown">
+          <div class="from">
+            <p>From</p>
+            <div class="select-cont">
+              <img src="https://flagsapi.com/US/flat/64.png" alt="flagImg" />
+              <select name="from" id="from"></select>
+            </div>
+          </div>
+          <i class="ri-arrow-left-right-line"></i>
+          <div class="to">
+            <p>To</p>
+            <div class="select-cont">
+              <img src="https://flagsapi.com/IN/flat/64.png" alt="flagImg" />
+              <select name="to" id="to"></select>
+            </div>
+          </div>
+        </div>
+        <div class="msg">Loading...</div>
+        <button>Get Exchange</button>
+      </form>
+    </div>
+  </body>
+</html>

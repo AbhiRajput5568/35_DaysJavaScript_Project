@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    315deg,
+    hsla(214, 100%, 46%, 1) 0%,
+    hsla(165, 100%, 45%, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.popUp {
+  width: fit-content;
+  padding: 60px 50px 30px;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+  font-size: x-large;
+  position: relative;
+  box-shadow: 0 0 10px 0px white;
+  transform: translateY(-120%) scale(0.1);
+  animation: transform 0.3s linear forwards;
+  display: none;
+}
+@keyframes transform {
+  100% {
+    transform: translateY(0);
+  }
+}
+.popUp h1 {
+  background: linear-gradient(
+    90deg,
+    hsla(214, 100%, 46%) 0%,
+    hsla(165, 100%, 45%, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.popUp p {
+  font-size: large;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    hsla(214, 100%, 46%) 0%,
+    hsla(165, 100%, 45%, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.popUp button {
+  width: 100%;
+  margin-top: 30px;
+  font-size: x-large;
+  padding: 10px 30%;
+  outline: none;
+  border: none;
+  background: #00e6ac;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.popUp i {
+  font-size: xx-large;
+  background-color: #00e6ac;
+  padding: 18px 20px;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -35px;
+  box-shadow: 0 0 10px 0px white;
+}
+.intro {
+  text-align: center;
+  margin-top: 50px;
+  font-size: small;
+  font-family: cursive;
+  color: rgb(255, 255, 255);
+  display: none;
+}
+form {
+  width: 100%;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 5px white;
+  border-radius: 15px;
+  /* display: none; */
+}
+form h1 {
+  font-family: sans-serif;
+  background: linear-gradient(
+    90deg,
+    hsla(214, 100%, 46%) 0%,
+    hsla(165, 100%, 45%, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+form input {
+  width: 100%;
+  font-size: large;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #00e5ad;
+}
+.inputBox {
+  width: 100%;
+  position: relative;
+}
+
+.inputBox i {
+  position: absolute;
+  right: 0;
+  right: 15px;
+  bottom: 15px;
+  cursor: pointer;
+  color: green;
+  display: none;
+}
+
+form .chekBox {
+  display: flex;
+  gap: 8px;
+}
+.chekBox input {
+  width: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+form .create {
+  width: 65%;
+  font-size: x-large;
+  padding: 15px;
+  outline: none;
+  border: 3px solid #00e5ad;
+
+  background: linear-gradient(
+    90deg,
+    hsla(214, 100%, 46%, 1) 0%,
+    hsla(165, 100%, 45%, 1) 100%
+  );
+  color: white;
+  font-weight: 700;
+  border: 3px solid;
+  cursor: pointer;
+  border-radius: 10px;
+}
+form .alert {
+  width: 100%;
+  text-align: left;
+  color: red;
+  font-size: large;
+  font-weight: 700;
+}

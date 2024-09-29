@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="quoteGen_11.css" />
+    <script src="quoteGen_11.js" defer></script>
+  </head>
+  <body>
+    <div class="quote-box">
+      <h1>Quote of the day</h1>
+      <blockquote>Loading...</blockquote>
+      <span>loading...</span>
+      <div class="btn">
+        <button class="gen" onclick="getQuote(api_url)">New Quote</button>
+        <button class="post" onclick="tweet()">
+          <i class="ri-twitter-fill"></i> Twitter
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

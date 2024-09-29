@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Platypi", serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background: #1d1467;
+}
+li {
+  list-style: none;
+}
+.cont ul a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.cont {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  background-image: url("https://ipint.io/services/images/files/accept-bitcoin-ethereum-conversion.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.cont nav {
+  /* width: 80%;
+  margin: auto; */
+  width: 100%;
+  padding: 10px;
+  height: 8%;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+}
+.cont nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.cont nav a:hover {
+  color: #ffbe00;
+}
+.cont nav span {
+  border: 2px solid #ffbe00;
+  padding: 5px 40px;
+  font-size: large;
+  color: #ffbe00;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.img {
+  width: 50px;
+}
+.img img {
+  width: 100%;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 92%;
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.hero h1 {
+  font-size: xxx-large;
+}
+.hero h1 span {
+  color: #ffbe00;
+}
+.hero button {
+  font-weight: 700;
+  background-color: #ffbe00;
+  font-size: x-large;
+  outline: none;
+  border: 2px solid #ffbe00;
+  color: white;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 15px 30px 20px;
+  text-align: center;
+  cursor: pointer;
+
+}
+.btn {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0px 40px;
+  /* border: 2px solid; */
+  gap: 20px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 40px;
+}
+.btn button {
+  color: black;
+  outline: none;
+  border: 2px solid #ffbe00;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+}
+.btn button img {
+  width: 30px;
+}
+.txt h3 {
+  color: #ffbe00;
+}
+.txt p {
+  color: #ffbe00;
+}
+@media screen and (max-width: 900px) {
+  .cont {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+}
