@@ -43,7 +43,7 @@ keyboard keys to play different drum sounds.
 ## How to Run Locally
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/35-days-35-js-projects.git
+   git clone https://github.com/AbhiRajput5568/35_DaysJavaScript_Project.git
    
 3. Navigate into the project directory:
  cd 35-days-35-js-projects
