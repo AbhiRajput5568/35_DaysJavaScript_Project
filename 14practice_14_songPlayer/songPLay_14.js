@@ -44,8 +44,8 @@ let songDetail = [
 ];
 
 let progress = document.querySelector(".progress");
-let song = document.querySelector(".song");
-let songSource = document.querySelector(".song source");
+// let song = document.querySelector(".song");
+// let songSource = document.querySelector(".song source");
 let playIcon = document.querySelector("#large");
 let songPlaylist = document.querySelector(".playList-cont");
 let menuIcon = document.querySelector("#menu");
@@ -54,7 +54,7 @@ let songImg = document.querySelector(".center img");
 let songDet = document.querySelector(".center h2");
 let songArtist = document.querySelector(".center h4");
 
-console.log(songDet);
+// console.log(songSource);
 
 let currentSongIndex = 0;
 let audio = new Audio(songDetail[currentSongIndex].songLoc);
